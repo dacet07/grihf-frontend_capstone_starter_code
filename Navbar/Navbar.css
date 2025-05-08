@@ -11,6 +11,8 @@ body {
     background-repeat: no-repeat;
     margin: 0;
     padding: 0;
+    font-family: 'Instrument Sans', sans-serif;
+    font-size: 16px;
 }
 
 /* Styling for the main navigation bar */
@@ -78,18 +80,21 @@ nav {
     font-size: 1.5rem;
     font-weight: 600;
     font-family: 'Kaushan Script', cursive;
-    color: #1D3582;
     cursor: pointer;
     text-decoration: none;
 }
+.nav__logo a{
+    padding-left: 7%;
+    text-decoration: none;
+    color: #1D3582;
+    display: flex;
+  align-items: center;
+  gap: 0.5rem;  
+    }
 .nav__logo img{
     width:41px;
 }
 
-/* Styling for a span within the logo */
-.nav__logo span {
-    color: #3685fb;
-}
 
 /* Styling for the icon in the navbar */
 .nav__icon {
@@ -103,21 +108,26 @@ nav {
     list-style: none;
     display: flex;
     align-items: center;
-    gap: 1rem;
-    font-size: 1rem;
+    gap: 0.5rem;
+    font-size: 1.1rem;
     font-weight: 500;
 }
+
 
 /* Styling for individual links in the navigation */
 .link a {
     padding: 0 1rem;
-    color: #0d213f;
+    color: #1D3582;
     transition: 0.3s;
+    text-decoration: none;
+    
 }
 
+  
 /* Hover effect for individual links in the navigation */
 .link a:hover {
     color: #3685fb;
+    text-decoration:underline;
 }
 
 /* Media queries for mobile responsiveness */
@@ -169,10 +179,14 @@ nav {
 
 /* Button styles */
 .btn1 {
-    border: 2px solid #3685fb;
-    background-color: white;
-    color: black;
+    border: 2px solid #B4C2ED;
+    background-color: #F6F8FF;
+    color: #1D3582;
     border-radius: 50px;
+    width: 120px;
+    height: 45px;
+    font-size: 1.1rem;
+        
 }
 
 .btn1:hover {
